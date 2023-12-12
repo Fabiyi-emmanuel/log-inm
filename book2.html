@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book a session with Bossman el'ta media">
+    <link rel="icon" href="./logo.png">
+    <title>Booking a session</title>
+    <link rel="stylesheet" href="book2.css">
+    <link rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+    <div class="Top">
+        <a href=""><img src="./logo.png" alt="" class="logo" id="logo"></a>
+        <h1 class="Bossman-media" id="bm">Bossman et'al Media Concept</h1>
+        <img src="./nav.png" alt="" class="input-nav" id="menu-icon">
+    </div>
+
+
+    <nav>
+        <div class="navbar">
+            <div class="new">
+                <a href=""> <img src="./nav2.png" alt="" class="exit-nav" id="exit"></a>
+
+                <ul>
+                    <a href="./index.html" class="mb-4 heading text-white aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100">Home</a>
+                    <a href="./portfolio.html">My Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="">Gallery</a>
+                    <a href="./student.html">Register to learn</a>
+                    <a href="./book2.html">Book a session</a>
+
+                </ul>
+            </div>
+    </nav>
+
+    <script>
+        document.getElementById("menu-icon").addEventListener("click", function () {
+            var navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("responsive");
+        });
+    </script>
+    <br><br><br><br>
+
+
+
+
+    <div class="booking-container">
+        <h1>Book a session </h1>
+        <form id="booking-form" action="mailto:efabiyi613@gmail.com" enctype="text/plain" method="post">
+            <label for="fullName"  >Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="Date" required>
+
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="Time" required>
+
+            <label for="sessionType">Session Type:</label>
+            <select id="sessionType" name="sessionType" required>
+                <option value="portrait">Photoshoot</option>
+                <option value="Make-up">Makeup</option>
+                <option value="event">Event Coverage</option>
+
+
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="Location" required>
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="Message"></textarea>
+
+            <button type="submit" id="book">Book Now</button>
+        </form>
+    </div>
+
+    <h5 id="name"></h5>
+<!-- 
+    <script>
+        document.getElementById("book").onclick = function () {
+            fn = document.getElementById("fullName").value
+            alert(fn + " " + "This form would redirect you to your E-mail to send this form to us.Check your E-mail after 30minute you would receive a message from Bossman media concept.")
+            document.getElementById("name").innerHTML = "This would link you to you E-mail to send the form as a message..........."
+
+
+        }
+    </script> -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.animateNumber.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/custom.js"></script>
+ 
+</body>
+
+</html>

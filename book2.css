@@ -1,0 +1,150 @@
+
+.Top {
+    margin: 0px;
+    padding: 0px;
+    background-color: green;
+    padding: 20px;
+    display: block;
+    width: 85%;
+    animation-name: top;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .input-nav{
+   
+  }
+  /* @keyframes top {
+    from {
+      background-color: #807161;
+    }
+    to {
+      background-image: url(./jon3.jpg);
+    } */
+  
+  .Top .logo {
+    background-image: url(./about-img.png);
+    width: 35px;
+    display: inline-block;
+  
+  }
+  .Top .Bossman-media {
+    font-size: 14px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    -webkit-text-stroke: 0.2px black;
+    display: inline;
+  }
+  .input-nav {
+    cursor: pointer;
+    width: 45px;
+    margin-left: 250px;
+    background-color: aliceblue;
+    margin-top: -100px;
+    display: inline;
+  }
+  .input-nav:hover {
+    width: 40px;
+   
+   
+  }
+  .navbar a {
+    display: none;
+  }
+  
+  .navbar.responsive a {
+    display: block;
+  }
+  
+  nav {
+    background-color: aliceblue;
+    background-image: url(./jon4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-left: auto;
+    margin-top: -50px;
+    background-attachment: fixed;
+    /* transition-duration: 10s; */
+    display: block;
+    animation-name: nn;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+  }
+  @keyframes nn {
+    10% {
+      background-image: url(./about-img.png);
+    }
+  }
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+    font-size: xx-large;
+    margin: 50px;
+    font-weight: bolder;
+    /* transition-duration: 10s; */
+  }
+  .navbar a:hover {
+    font-size: 30px;
+    color: blue;
+  }
+  .navbar a:active {
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}  
